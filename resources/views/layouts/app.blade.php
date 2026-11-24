@@ -34,6 +34,12 @@
                             Kategori
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->routeIs('items.*') ? 'active' : '' }}"
+                            href="{{ route('items.index') }}">
+                            Barang
+                        </a>
+                    </li>
                 </ul>
 
                 <div class="d-flex align-items-center gap-3 mt-2 mt-md-0">
