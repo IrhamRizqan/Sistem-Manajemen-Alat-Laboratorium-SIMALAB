@@ -28,6 +28,12 @@
                             Beranda
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->routeIs('categories.*') ? 'active' : '' }}"
+                            href="{{ route('categories.index') }}">
+                            Kategori
+                        </a>
+                    </li>
                 </ul>
 
                 <div class="d-flex align-items-center gap-3 mt-2 mt-md-0">
@@ -44,6 +50,10 @@
     <main class="container py-4 flex-grow-1">
         @if (session('status'))
             <div class="alert alert-success" role="status">{{ session('status') }}</div>
+        @endif
+
+        @if (session('error'))
+            <div class="alert alert-danger" role="alert">{{ session('error') }}</div>
         @endif
 
         @yield('content')
