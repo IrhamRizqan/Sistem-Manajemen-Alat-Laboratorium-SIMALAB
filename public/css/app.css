@@ -1,0 +1,61 @@
+body {
+    background-color: #F7F5F0;
+    color: #0D0B08;
+}
+
+.bg-simalab-dark {
+    background-color: #323231;
+    border-bottom: 2px solid #9F8453;
+}
+
+.bg-simalab-dark .nav-link {
+    color: #FFFFFF;
+}
+
+.bg-simalab-dark .nav-link:hover,
+.bg-simalab-dark .nav-link.active {
+    color: #BDA476;
+    font-weight: 600;
+}
+
+.navbar-user {
+    color: #AAAAAA;
+    font-size: 0.9rem;
+}
+
+.btn-simalab {
+    background-color: #423723;
+    border-color: #423723;
+    color: #FFFFFF;
+}
+
+.btn-simalab:hover,
+.btn-simalab:focus {
+    background-color: #2F2718;
+    border-color: #2F2718;
+    color: #FFFFFF;
+}
+
+.badge-simalab {
+    background-color: #BDA476;
+    color: #0D0B08;
+}
+
+.card {
+    border-color: #DDD7CB;
+}
+
+.card-simalab {
+    border-top: 3px solid #423723;
+}
+
+.link-simalab {
+    color: #423723;
+    font-weight: 600;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #9F8453;
+    box-shadow: 0 0 0 0.2rem rgba(159, 132, 83, 0.25);
+}
